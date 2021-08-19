@@ -1,0 +1,22 @@
+#! /home/EDA/install/bin/vvp
+:ivl_version "11.0 (devel)" "(s20150603-943-g10685ed8)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/home/EDA/install/lib/ivl/system.vpi";
+:vpi_module "/home/EDA/install/lib/ivl/vhdl_sys.vpi";
+:vpi_module "/home/EDA/install/lib/ivl/vhdl_textio.vpi";
+:vpi_module "/home/EDA/install/lib/ivl/v2005_math.vpi";
+:vpi_module "/home/EDA/install/lib/ivl/va_math.vpi";
+S_0x55d814323e60 .scope module, "main" "main" 2 41;
+ .timescale 0 0;
+    .scope S_0x55d814323e60;
+T_0 ;
+    %vpi_call 2 45 "$display", "Hello, World" {0 0 0};
+    %vpi_call 2 46 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "hello.vl";
